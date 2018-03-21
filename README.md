@@ -1,4 +1,5 @@
-# async-telegram-client
+[![Build Status](https://travis-ci.org/elmcrest/async-telegram-client.svg?branch=master)](https://travis-ci.org/elmcrest/async-telegram-client)
+# aioteleclient
 teleclientaio aims to implement the telegram client api in python 3.6 with asyncio and aiohttp. docs are following maybe, or just have a look at the tests.
 
 inspired by telethon and aiogram
