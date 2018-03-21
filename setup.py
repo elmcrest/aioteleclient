@@ -17,10 +17,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Topic :: Communications :: Chat'
     ],
-    packages=[
-        'aioteleclient.'+package for package in
-        find_packages('aioteleclient')
-    ],
+    packages=find_packages(),
     install_requires=[
         'aiohttp'
     ],
