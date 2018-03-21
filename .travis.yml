@@ -3,6 +3,10 @@ python:
   - "3.6"
 install:
   - pip install -r requirements/dev.pip
-  - pip install tox-travis coverage
+  - pip install tox-travis
 script:
   - tox
+
+after_success:
+  - coverage combine tests/
+  - bash <(curl -s https://codecov.io/bash)
